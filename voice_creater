@@ -1,0 +1,5 @@
+from gtts import gTTS
+
+text = "300"
+tts = gTTS(text, lang='ru')
+tts.save("sounds/300.mp3")
